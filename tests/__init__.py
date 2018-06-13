@@ -1,0 +1,1 @@
+"""asyncio-socketcluster package initialization"""

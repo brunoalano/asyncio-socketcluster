@@ -1,0 +1,19 @@
+sudo: false
+language: python
+python:
+  - "3.5"
+  - "3.6"
+  - "3.7-dev"
+# command to install dependencies
+install: "make"
+# command to run tests
+script:
+  - make ci
+cache: pip
+jobs:
+  include:
+    - stage: test
+        - make ci
+    - stage: coverage
+      python: 3.6
+script: codecov

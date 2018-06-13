@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+pytest = "*"
+codecov = "*"
+pytest-cov = "*"
+pytest-xdist = "*"
+sphinx = "*"
+"flake8" = "*"
+tox = "*"
+detox = "*"
+
+[requires]
+python_version = "3.6"

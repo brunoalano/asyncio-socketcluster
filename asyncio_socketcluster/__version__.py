@@ -1,0 +1,8 @@
+__title__ = 'asyncio-socketcluster'
+__description__ = 'An implementation of the WebSocket Protocol (RFC 6455 & 7692).'
+__url__ = 'https://github.com/brunoalano/asyncio-socketcluster'
+__version__ = '0.1.0.dev0'
+__author__ = 'Bruno Alano'
+__author_email__ = 'bruno@neurologic.com.br'
+__license__ = 'MIT'
+__copyright__ = 'Copyright 2018 Bruno Alano'
