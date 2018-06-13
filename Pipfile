@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+websockets = "*"
 
 [dev-packages]
 pytest = "*"
@@ -14,6 +15,7 @@ sphinx = "*"
 "flake8" = "*"
 tox = "*"
 detox = "*"
+pytest-asyncio = "*"
 
 [requires]
 python_version = "3.6"
